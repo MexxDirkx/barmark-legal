@@ -17,7 +17,7 @@
 </head>
 <body>
   <h1>Privacy Policy</h1>
-  <p class="meta">BarMark &mdash; Last updated: March 30, 2026</p>
+  <p class="meta">BarMark &mdash; Last updated: April 2, 2026</p>
 
   <p>This Privacy Policy describes how BarMark ("we", "us", or "our") collects, uses, and protects information when you use the BarMark mobile application ("App"). By using the App you agree to the practices described in this policy.</p>
 
@@ -34,7 +34,8 @@
       <tr><td>Email address</td><td>Account creation and authentication</td><td>Firebase Authentication (Google)</td></tr>
       <tr><td>Display name</td><td>Personalisation within the App</td><td>Firebase Firestore (Google)</td></tr>
       <tr><td>Profile photo</td><td>Personalisation within the App</td><td>Firebase Storage (Google)</td></tr>
-      <tr><td>Workout &amp; fitness data</td><td>Core app functionality — tracking exercises, sets, reps, weight</td><td>Firebase Firestore (Google)</td></tr>
+      <tr><td>Workout &amp; fitness data</td><td>Core app functionality — tracking exercises, sets, reps, weight, routines, notes, and goals</td><td>Firebase Firestore (Google)</td></tr>
+      <tr><td>Leaderboard &amp; social data</td><td>Optional public leaderboard, follow connections, and social posts</td><td>Firebase Firestore (Google)</td></tr>
       <tr><td>Crash &amp; error reports</td><td>Identifying and fixing bugs to improve app stability</td><td>Firebase Crashlytics (Google)</td></tr>
     </tbody>
   </table>
@@ -46,11 +47,21 @@
     <li>To create and manage your account</li>
     <li>To store and display your workout history</li>
     <li>To personalise your App experience (name, profile photo)</li>
+    <li>To generate AI-powered workout insights and routine suggestions (see Section 4 for details)</li>
+    <li>To display your progress on optional public leaderboards</li>
   </ul>
   <p>We do not sell your data to third parties. We do not use your data for marketing or profiling purposes.</p>
 
   <h2>4. Third-Party Services</h2>
   <p>The App uses Firebase, a platform provided by Google LLC, for authentication, data storage, and crash reporting (Crashlytics). Firebase may process your data on Google's infrastructure in accordance with <a href="https://firebase.google.com/support/privacy" target="_blank">Google's Privacy Policy</a>. Data may be transferred to and processed in the United States or other countries where Google operates. Data is transmitted over encrypted HTTPS connections.</p>
+
+  <h3>AI-Powered Features</h3>
+  <p>The App offers optional AI-powered features such as workout insight analysis and routine generation. When you use these features, your recent workout data (exercise names, sets, reps, and weights — no personal identifiers) is sent to third-party AI providers to generate personalised suggestions. The AI providers currently used are:</p>
+  <ul>
+    <li><strong>Groq</strong> (<a href="https://groq.com/privacy-policy/" target="_blank">Privacy Policy</a>) — primary provider</li>
+    <li><strong>xAI (Grok)</strong> (<a href="https://x.ai/legal/privacy-policy" target="_blank">Privacy Policy</a>) — alternative provider</li>
+  </ul>
+  <p>These providers process the data only to generate a response and do not use it for training their models. No account information (email, name, or profile photo) is sent to AI providers. AI features are entirely optional — the App works fully without them.</p>
 
   <h2>5. Data Retention</h2>
   <p>Your data is stored as long as your account exists. When you delete your account (either in-app or via our <a href="account-deletion.html">account deletion request page</a>), all associated data is permanently deleted within 30 days.</p>
